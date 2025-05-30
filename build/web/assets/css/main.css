@@ -1,0 +1,40 @@
+:root {
+    --primary-maroon: #800020;
+    --light-maroon: #a0345a;
+    --dark-maroon: #5c0017;
+    --accent-gold: #d4af37;
+    --light-bg: #faf8f8;
+    --white: #ffffff;
+    --text-dark: #2c2c2c;
+    --text-light: #666666;
+    --border-light: #e5e5e5;
+    --success: #28a745;
+    --danger: #dc3545;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--light-bg);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--primary-maroon);
+    margin-bottom: 3rem;
+    font-weight: 600;
+}

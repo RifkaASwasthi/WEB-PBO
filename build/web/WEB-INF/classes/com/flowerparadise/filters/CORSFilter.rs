@@ -1,0 +1,1 @@
+flowerparadise.filters.CORSFilter
